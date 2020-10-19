@@ -7,8 +7,16 @@
 ```
 yarn
 ```
+или
+```
+npm install
+```
 
 2) Запуск проекта:
 ```
 yarn start
+```
+или
+```
+npm run start
 ```
