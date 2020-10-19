@@ -1,7 +1,7 @@
 import React from 'react';
-import ChartComponent from '../../components/ChartComponent/index.js';
-import HeaderBar from '../../components/HeaderBar/index.js';
-import {fetchCountries, fetchCategories, fetchAppsData, selectCountryId} from '../../redux/actions';
+import ChartComponent from 'components/ChartComponent/index.js';
+import HeaderBar from 'components/HeaderBar/index.js';
+import {fetchCountries, fetchCategories, fetchAppsData, selectCountryId} from 'redux/actions';
 import {connect} from 'react-redux';
 import moment from 'moment';
 import _ from 'lodash';

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'index.css';
+import App from 'App';
 import {Provider} from 'react-redux';
 import {compose, createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
-import {rootReducer} from './redux/rootReducer';
-import * as serviceWorker from './serviceWorker';
+import {rootReducer} from 'redux/rootReducer';
+import * as serviceWorker from 'serviceWorker';
 import {LocalizationProvider} from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
 

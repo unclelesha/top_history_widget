@@ -1,5 +1,5 @@
 import React from 'react';
-import {fetchCountries, fetchCategories, fetchAppsData, selectCountryId} from '../../redux/actions';
+import {fetchCountries, fetchCategories, fetchAppsData, selectCountryId} from 'redux/actions';
 import {connect} from 'react-redux';
 import moment from 'moment';
 import { DateRangePicker, DateRangeDelimiter  } from '@material-ui/pickers';

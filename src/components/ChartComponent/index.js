@@ -2,7 +2,7 @@ import React from 'react';
 import Chart from 'chart.js';
 import {connect} from 'react-redux';
 import _ from 'lodash';
-import {Box, Button} from "@material-ui/core";
+import {Box, Button} from '@material-ui/core';
 
 class ChartComponent extends React.Component {
     /**

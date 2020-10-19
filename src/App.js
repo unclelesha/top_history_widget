@@ -1,7 +1,7 @@
 import React from 'react';
-import TopHistory from './widgets/TopHistory/index.js';
-import './App.css';
-import {Box} from "@material-ui/core";
+import TopHistory from 'widgets/TopHistory/index.js';
+import 'App.css';
+import {Box} from '@material-ui/core';
 
 function App() {
     return (
